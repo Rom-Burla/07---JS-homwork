@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Book list</title>
+</head>
+
+<body>
+    <h1>My book list</h1>
+
+    <label for="bname">Please enter your book name</label>
+    <input type="text" name="bname" id="bname" placeholder="add your book">
+    <button onclick="addBook()">Click to add a book to the list</button>
+
+    <button class="dispbtn" onclick="dispList()">Click to display the book list</button>
+
+    <p>When you have finished your book click on it's name in the list to put a mark</p>
+
+    <div class="display"></div>
+
+    <script src="./JS/app.js"></script>
+</body>
+
+</html>

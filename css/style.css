@@ -1,0 +1,46 @@
+button{
+    width: 210px;
+    height: 40px;
+    background-color: rgb(30, 194, 139);
+    color: rgb(5, 5, 121);
+    border: 0;
+    font-weight: 600;
+    font-family: cursive;
+}
+button:hover{
+    background-color: rgb(44, 250, 181);
+    color: rgb(4, 4, 148);
+}
+button:active{
+    background-color: rgb(16, 236, 163);
+}
+.lbook {
+    color:rgb(7, 7, 182);
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 700;
+}
+#bname{
+    width: 200px;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 0;
+    background-color: rgb(30, 194, 139);
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+}
+#bname:focus{
+    background-color:  rgb(29, 209, 149);;
+}
+#bname::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.37);
+    font-family: cursive;
+    font-weight: 600;
+}
+p{
+    font-size:  30px;
+    font-family:  Brush Script MT;
+}
+
