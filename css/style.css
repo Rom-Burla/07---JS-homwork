@@ -39,6 +39,11 @@ button:active{
     font-family: cursive;
     font-weight: 600;
 }
+#bname::-moz-placeholder{
+    color: rgba(255, 255, 255, 0.37);
+    font-family: cursive;
+    font-weight: 600;
+}
 p{
     font-size:  30px;
     font-family:  Brush Script MT;
